@@ -1,0 +1,404 @@
+body{
+    margin: 0;
+    background-color: white;
+    color:brown;
+    font-family: Georgia,serif;
+}
+
+header{
+    background-color: pink;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1{
+    font-size: 45px;
+    margin: 0;
+}
+
+nav{
+    background-color: pink;
+    text-align:center ;
+    padding: 25px;
+    white-space: nowrap;
+}
+
+nav a{
+    color:brown;
+    text-decoration: none;
+    margin: 5px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+nav a:hover{
+    color: white;
+    transform: scale(1.1);
+}
+
+main{
+    text-align: center;
+    padding: 25px;
+    border: 2px solid brown;
+    margin: 20px;
+}
+
+.baking{
+    font-size: 40px;
+    margin: 10px;
+}
+
+
+img{
+    margin: 10px;
+    border: 3px solid brown;
+    border-radius: 10px;
+    padding: 5px;
+    transform: 0.3s;
+    animation: float 3s infinite;
+}
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-8px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+img:hover{
+    transform: scale(1.05);
+    border-radius: 20px;
+}
+
+
+
+main h1{
+    font-size: 45px;
+    color: brown;
+    margin-bottom: 20px;
+}
+
+main h1:hover{
+    transform: scale(1.05);
+}
+
+main h2{
+    font-size: 38px;
+    color: brown;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+main h2:hover{
+    transform: scale(1.03);
+}
+
+main h3{
+    font-size: 35px;
+    color: brown;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+main h3:hover{
+    transform: scale(1.05);
+}
+
+header h1:hover{
+    transform: scale(1.1);
+}
+
+ul{
+    text-align:left;
+    display: inline-block;
+    padding: 0;
+}
+
+main p{
+    font-size: 22px;
+    line-height: 1.4;
+}
+
+
+.home-page .main-picture{
+    width: 600px;
+    height: 550px;
+    object-fit: cover;
+}
+
+.home-page .small-picture{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+
+      /*about*/
+main img{
+    margin: 10px;
+    border: 3px solid brown;
+    border-radius: 10px;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+main img:hover{
+    transform: scale(1.05);
+}
+
+main h1{
+    font-size: 45px;
+    color: brown;
+    margin-bottom: 20px;
+}
+
+main h2{
+    font-size: 38px;
+    color: brown;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+main p{
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+main ul{
+    display: inline-block;
+    text-align: left;
+    padding: 0;
+}
+
+nav a{
+    color: brown;
+    text-decoration: none;
+    margin: 5px;
+    font-size: 20px;
+    display: inline-block;
+    border: 2px solid brown;
+    padding: 8px 12px;
+    border-radius: 15px;
+}
+
+nav a:hover{
+    color: white;
+    transform: scale(1.1);
+}
+
+.about-page img{
+    width: 400px;
+    height: 350;
+    object-fit: cover;
+    margin: 10px;
+    border: 3px solid brown;
+    border-radius: 10px;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+.about-page img:hover{
+    transform: scale(1.08);
+}
+
+.about-page ul{
+    display:block;
+    width: fit-content;
+    margin: 20px auto;
+    text-align: left;
+}
+
+/*products*/
+
+.products-page img{
+    width: 250px;
+    height: 350px;
+    object-fit: cover;
+    margin: 10px;
+    border: 3px solid brown;
+    border-radius: 10px;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+.products-page img:hover{
+    transform: scale(1.08);
+}
+
+.products-page h2{
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.products-page h2{
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.products-page strong{
+    font-size: 20px;
+}
+
+/*offers*/
+
+.offers-page img{
+    width: 350px;
+    height: 400px;
+    object-fit: cover;
+    margin: 10px;
+}
+
+.offers-page .main-offer-picture{
+    width: 500px;
+    height: 650px;
+    object-fit: cover;
+}
+
+.offers-page .small-offer-picture{
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.offer-box{
+    border: 2px solid brown;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+}
+
+.offer-box:hover{
+    transform: scale(1.02);
+}
+
+/*custom orders*/
+
+.orders-page img{
+    width: 450px;
+    height:650px;
+    object-fit: cover;
+    margin: 10px;
+}
+
+.orders-page .order-main-picture{
+    width: 500px;
+    height:650px;
+    object-fit: cover;
+}
+
+.orders-page img:hover{
+    transform:scale(1.05);
+}
+
+.orders-page ol{
+    display: inline-block;
+    text-align: left;
+    line-height: 1.8;
+}
+
+.orders-page form{
+    border:2px solid brown ;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 500px;
+}
+
+.orders-page input,
+.orders-page select,
+.orders-page textarea{
+    margin-top: 5px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.orders-page imput[type="submit"]{
+    background-color: pink;
+    color: brown;
+    border: 2px solid brown;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.orders-page input[type="submit"]:hover{
+    background-color: brown;
+    color: white;
+    transform: scale(1.05);
+}
+
+/*contact*/
+
+.contact-page img{
+    margin: 10px;
+    border: 3px solid brown;
+    border-radius: 10px;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+.contact-page img:hover{
+    transform: scale(1.08);
+}
+
+.contact-page h2{
+    font-size: 38px;
+}
+
+.contact-page p{
+    font-size: 20px;
+}
+
+.contact-page p{
+    font-size: 20px;
+}
+
+.contact-page p img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    margin: 10px;
+    border: 3px solid brown;
+    border-radius: 10px;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+.contact-info{
+    width: 500px;
+    margin: auto;
+}
+
+.contact-info p{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    font-size: 20px;
+}
+
+.contact-info img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    margin-right: 15px;
+    border: 3px solid brown;
+    border-radius: 10px;
+    padding: 5px;
+}
+.contact-page > img{
+    width: 400px;
+    height: auto;
+}
+
+.contact-page .main-contact-picture{
+    width: 500px;
+    height: 450px;
+    object-fit: cover;
+}
