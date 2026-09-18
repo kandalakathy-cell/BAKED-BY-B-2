@@ -156,6 +156,19 @@ CITINGS
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 CSS
 
 I used CSS to style my Baked by B website and make all the pages look consistent. I created an external CSS file called **`styles.css`** and linked it to all my HTML pages.
